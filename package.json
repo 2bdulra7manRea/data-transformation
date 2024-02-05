@@ -1,0 +1,21 @@
+{
+  "name": "data-transformation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-jwt-verify": "^4.0.0",
+    "aws-sdk": "^2.1550.0",
+    "dotenv": "^16.4.1",
+    "jest": "^29.7.0",
+    "serverless-offline": "^13.3.3"
+  },
+  "scripts": {
+    "dev": "sls offline",
+    "test": "jest tests/*.js"
+  },
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0"
+  }
+}
