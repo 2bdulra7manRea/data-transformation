@@ -65,7 +65,7 @@ The API follows a standard response format for consistency:
 
 ```json
 {
-  "statusCode": true,
+  "statusCode": 200,
   "data": "YourSuccessDataHere"
 }
 ```
